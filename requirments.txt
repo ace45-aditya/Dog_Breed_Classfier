@@ -1,0 +1,11 @@
+tensorflow
+tensorflow-hub
+tf-keras
+numpy
+pandas
+matplotlib
+scikit-learn
+opencv-python
+Pillow
+jupyter
+ipykernel
