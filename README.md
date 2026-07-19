@@ -1,18 +1,18 @@
-# 🐶 Dog Breed Identification using Deep Learning
+# Dog Breed Identification using Deep Learning
 
-## 📌 Overview
+## Overview
 
-This project identifies the breed of a dog from an input image using **Transfer Learning** with TensorFlow. A pre-trained deep learning model is fine-tuned on the Dog Breed Identification dataset to classify images into different dog breeds.
+This project classifies the breed of a dog from an input image using **Transfer Learning** with TensorFlow. A pre-trained deep learning model is fine-tuned on the Dog Breed Identification dataset to accurately recognize different dog breeds.
 
-## 🚀 Features
+## Features
 
 - Dog breed classification from images
 - Transfer Learning using TensorFlow Hub
-- Image preprocessing and augmentation
+- Image preprocessing and data augmentation
 - Model training and evaluation
 - Prediction on unseen dog images
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - TensorFlow
@@ -22,54 +22,58 @@ This project identifies the breed of a dog from an input image using **Transfer 
 - Matplotlib
 - Jupyter Notebook
 
-## 📂 Dataset
+## Dataset
 
-This project uses the **Dog Breed Identification** dataset from Kaggle.
+This project uses the **Dog Breed Identification** dataset available on Kaggle.
 
-The dataset is **not included** in this repository due to its large size.
+The dataset is **not included** in this repository because of its large size.
 
-Download it from Kaggle and place it in a folder named:
+Download the dataset and place it inside a folder named:
 
-```
+```text
 data/
 ```
 
-The folder structure should look like:
+The directory structure should be:
 
-```
+```text
 data/
 ├── train/
 ├── test/
-├── labels.csv
+└── labels.csv
 ```
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone this repository.
-2. Download the Kaggle dataset.
-3. Place the dataset inside the `data/` folder.
-4. Install the required libraries.
-5. Open `Dog_Breed_Classifier.ipynb`.
-6. Run the notebook from top to bottom.
+2. Download the Dog Breed Identification dataset from Kaggle.
+3. Place the dataset inside the `data/` directory.
+4. Install the required dependencies:
 
-## 📈 Model
-
-This project uses **Transfer Learning** with a pre-trained image classification model from TensorFlow Hub for efficient and accurate dog breed recognition.
-
-## 📁 Repository Structure
-
+```bash
+pip install -r requirements.txt
 ```
+
+5. Open `Dog_Breed_Classifier.ipynb`.
+6. Run the notebook sequentially from start to finish.
+
+## Model
+
+The project uses **Transfer Learning** with a pre-trained image classification model from TensorFlow Hub, enabling efficient training and high classification accuracy.
+
+## Repository Structure
+
+```text
 Dog-Breed-Classifier/
 │
 ├── Dog_Breed_Classifier.ipynb
 ├── README.md
-└── requirements
+├── requirements.txt
+└── data/
 ```
 
-## 👨‍💻 Author
+> **Note:** The `data/` folder is not included in this repository. Download the dataset separately from Kaggle before running the notebook.
 
-**Aditya prasad phadatare**
+## Author
 
----
-
-If you found this project useful, feel free to ⭐ the repository.
+**Aditya Prasad Phadatare**
