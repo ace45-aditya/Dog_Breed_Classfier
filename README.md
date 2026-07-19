@@ -63,7 +63,7 @@ Dog-Breed-Classifier/
 │
 ├── Dog_Breed_Classifier.ipynb
 ├── README.md
-└── .gitignore
+└── requirements
 ```
 
 ## 👨‍💻 Author
